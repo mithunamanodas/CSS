@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body{
+    font-family: 'Times New Roman', Times, serif;
+    color:brown;
+    text-align:center;
+    background-color:blanchedalmond;
+}
+
+a{
+    background-color:aqua;
+}
+    </style>
+</head>
+<body>
+    <h1>Admission Registration</h1>
+    <form>
+    First Name:<input type="text" placeholder="firstname"><br><br>
+    Last Name:<input type="text" placeholder="lastname"><br><br>
+    DOB:<input type="date"><br><br>
+    Gender:<input type="radio" id="male" name="gender" value="Male">Male
+            <input type="radio" id="female" name="gender" value="Female">Female
+            <input type="radio" id="other" name="gender" value="Othe">Other<br><br>
+    Address:<textarea id="address" rows="4" cols="50"></textarea> <br><br>
+    Email id:<input type="email" placeholder="email address"><br><br>
+    Phone No:<input type="tel" placeholder="10 digits"><br><br>
+    District:<select name="District" id="dis">
+        <option value="Thiruvanthapuram">Thiruvanthapuram</option>
+        <option value="Ernakulam">Ernakulam</option>
+        <option value="Calicut">Calicut</option>
+        <option value="Kasargodu">Kasargodu</option>
+      </select><br><br>
+      Educational Qualification:<select name="qual" id="qual">
+        <option value="PG">PG</option>
+        <option value="UG">UG</option>
+        <option value="HSE">HSE</option>
+        <option value="SSLC">SSLC</option>
+      </select><br><br>
+      <button type="submit">Submit</button>
+      <button type="cancel">Cancel</button>
+      <button type="reset">Reset</button><br><br>
+    </form>
+    <a href="nav1.html">Click here to go back</a></center>
+</body>
+</html>

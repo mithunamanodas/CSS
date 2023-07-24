@@ -1,0 +1,16 @@
+.s1{
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(193, 193, 217);
+}
+.s2{
+    text-align:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(193, 198, 196)
+}
+body{
+    background-image: url("https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1660285542.jpg");
+    background-size:cover;
+   
+   
+}
